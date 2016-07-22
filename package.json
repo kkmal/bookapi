@@ -9,12 +9,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp-mocha": "^2.2.0",
+    "mongoose": "^4.5.5",
+    "should": "^10.0.0",
+    "sinon": "^1.17.4"
   },
   "devDependencies": {
     "eslint": "^3.1.1",
     "eslint-config-airbnb": "^9.0.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
     "jscs": "^3.0.7",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "nodemon": "^1.9.2"
   }
 }

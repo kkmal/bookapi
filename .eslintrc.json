@@ -3,6 +3,8 @@
     "installedESLint": true,
 
     "rules":{
-            "no-console":0
+            "no-console":0,
+            "new-cap": ["error", { "capIsNewExceptions": ["Router"] }],
+            "no-param-reassign": 0
         }
 }
